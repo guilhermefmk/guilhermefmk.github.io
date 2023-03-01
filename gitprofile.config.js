@@ -81,18 +81,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Weather analisys',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Extração de dados meteorológicos do Weatherbit usando sua API REST, transformação e carregamento desses dados no Google Cloud Storage usando o Prefect.',
+      imageUrl: 'public/gcp_logo.png',
+      link: 'https://github.com/guilhermefmk/analise_metereologica_gcp',
     },
     {
-      title: 'Project Name',
+      title: 'Twitter realtime analisys',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Estudo comparativo entre os dados disponibilizados pelo TSE em relação ao segundo turno das eleições de 2022 e os dados capturados via análise sentimental do twitter.',
+      imageUrl: 'public/aws_logo.png',
+      link: 'https://github.com/guilhermefmk/Analise_de_sentimentos_twitter',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
