@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'guilhermefmk', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,56 +11,54 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'guilhermercunha',
+    twitter: 'cunhaguilherme4',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://guilhermercunha.me',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'guilhermefmk9@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'Profile.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
+    'Pandas',
+    'PySpark',
+    'SQL',
+    'Cloud computing(AWS/GCP)',
+    'Mongodb',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Big data',
+    'Java'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Vetorial Tecnologia',
+      position: 'Helpdesk Analyst SR',
+      from: 'October 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://vetorial.net/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Compass.uol',
+      position: 'AWS Data engineer',
+      from: 'October 2022',
+      to: 'December 2022',
+      companyLink: 'https://compass.uol/',
     },
   ],
   /* certifications: [
@@ -73,16 +71,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'IFRS - Campus Rio Grande',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2022',
+      to: '2025',
     },
   ],
 
