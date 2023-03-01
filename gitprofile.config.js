@@ -84,14 +84,14 @@ const config = {
       title: 'Weather analisys',
       description:
         'Extração de dados meteorológicos do Weatherbit usando sua API REST, transformação e carregamento desses dados no Google Cloud Storage usando o Prefect.',
-      imageUrl: 'public/gcp_logo.png',
+      imageUrl: 'https://fabianlee.org/wp-content/uploads/2021/01/gcp_logo.png',
       link: 'https://github.com/guilhermefmk/analise_metereologica_gcp',
     },
     {
       title: 'Twitter realtime analisys',
       description:
         'Estudo comparativo entre os dados disponibilizados pelo TSE em relação ao segundo turno das eleições de 2022 e os dados capturados via análise sentimental do twitter.',
-      imageUrl: 'public/aws_logo.png',
+      imageUrl: 'https://www.solvyng.io/wp-content/uploads/2021/10/aws-logo-1.png',
       link: 'https://github.com/guilhermefmk/Analise_de_sentimentos_twitter',
     },
   ],
