@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'guilhermercunha',
-    twitter: 'cunhaguilherme4',
+    twitter: '',
     mastodon: '',
     facebook: '',
     instagram: '',
@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'CV - Guilherme EN.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      './resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -43,22 +43,30 @@ const config = {
     'Git',
     'Docker',
     'Big data',
-    'Java'
+    'Java',
+    'JavaScript'
   ],
   experiences: [
+    {
+      company: 'Compass.uol',
+      position: 'Data Engineer JR',
+      from: 'February 2023',
+      to: 'Present',
+      companyLink: 'https://compass.uol/',
+    },
+    {
+      company: 'Compass.uol',
+      position: 'AWS Data engineer Intern',
+      from: 'October 2022',
+      to: 'December 2022',
+      companyLink: 'https://compass.uol/',
+    },
     {
       company: 'Vetorial Tecnologia',
       position: 'Helpdesk Analyst SR',
       from: 'October 2021',
-      to: 'Present',
+      to: 'February 2023',
       companyLink: 'https://vetorial.net/',
-    },
-    {
-      company: 'Compass.uol',
-      position: 'AWS Data engineer',
-      from: 'October 2022',
-      to: 'December 2022',
-      companyLink: 'https://compass.uol/',
     },
   ],
   /* certifications: [
