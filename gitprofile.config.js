@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1ELN_cGCITB9Gv95nC4zUJx3Y1nNJeMaSwjo0ynZitXE', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
