@@ -29,11 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-<<<<<<< HEAD
       'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
-=======
-      './resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
->>>>>>> main
   },
   skills: [
     'Python',
