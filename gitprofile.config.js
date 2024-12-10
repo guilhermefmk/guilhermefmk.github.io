@@ -48,10 +48,24 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Compass.uol',
-      position: 'Data Engineer JR',
-      from: 'February 2023',
+      company: 'NTT Data',
+      position: 'Data Engineer',
+      from: 'July 2024',
       to: 'Present',
+      companyLink: 'https://br.nttdata.com/',
+    },
+    {
+      company: 'Eemovel Inteligência Imobiliária',
+      position: 'Data Engineer',
+      from: 'January 2024',
+      to: 'July 2024',
+      companyLink: 'https://eemovel.com.br/',
+    },
+    {
+      company: 'Compass.uol',
+      position: 'Data Engineer',
+      from: 'February 2023',
+      to: 'January 2024',
       companyLink: 'https://compass.uol/',
     },
     {
@@ -65,7 +79,7 @@ const config = {
       company: 'Vetorial Tecnologia',
       position: 'Helpdesk Analyst SR',
       from: 'October 2021',
-      to: 'February 2023',
+      to: 'January 2023',
       companyLink: 'https://vetorial.net/',
     },
   ],
